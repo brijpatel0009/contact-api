@@ -6,7 +6,7 @@ const userRoute = require('./routes/user')
 const contactRoute = require('./routes/contact')
 
 
-mongoose.connect('mongodb+srv://brij:brij123456@cluster0.asrzdir.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://amiparabrijesh56:brij123456@demo.lo6ltqp.mongodb.net/?retryWrites=true&w=majority&appName=demo')
 .then(res=>{console.log("connected to database")})
 .catch(err=>{console.log(err)})
 
